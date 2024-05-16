@@ -1,8 +1,18 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
-import React from "react";
+import GrassArea from "./components/GrassArea/GrassArea.jsx";
+import "./App.css";
+import {useRef} from "react";
 
 const App = () => {
-  return <div>App</div>;
+  const keyboardInputRef = useRef(null);
+
+  return (
+    <>
+      <GrassArea></GrassArea>
+      <input className="keyboardInput" autoFocus ref={keyboardInputRef}></input>
+    </>
+  );
 };
 
 export default App;
