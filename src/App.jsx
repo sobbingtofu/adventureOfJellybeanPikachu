@@ -5,13 +5,11 @@ import "./App.css";
 import {useRef} from "react";
 
 const App = () => {
-  const keyboardInputRef = useRef(null);
-
   return (
-    <>
-      <GrassArea></GrassArea>
-      <input className="keyboardInput" autoFocus ref={keyboardInputRef}></input>
-    </>
+    <main>
+      <GrassArea navigatePikachu></GrassArea>
+      <input className="keyboardInput"></input>
+    </main>
   );
 };
 

@@ -1,5 +1,10 @@
-body{
-  margin: 0px;
+main {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+  height:100%;
+  width: 100%;
 }
 
 .keyboardInput {
@@ -7,4 +12,10 @@ body{
   border-color:rgba(255, 255, 255, 0);
   color: white;
   outline: none;
+
+  &:focus {
+    outline: none;
 }
+
+}
+
