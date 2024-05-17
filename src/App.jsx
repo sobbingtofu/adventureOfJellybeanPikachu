@@ -7,8 +7,8 @@ import {useRef} from "react";
 const App = () => {
   return (
     <main>
-      <GrassArea navigatePikachu></GrassArea>
-      <input className="keyboardInput"></input>
+      <GrassArea />
+      {/* <input className="keyboardInput"></input> */}
     </main>
   );
 };

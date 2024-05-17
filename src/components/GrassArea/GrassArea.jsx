@@ -7,7 +7,7 @@ const GrassArea = () => {
   return (
     <>
       <div className="grass-area">
-        <Pikachu></Pikachu>
+        <Pikachu />
         {ARRAY_TO_HUNDRED.map((number) => {
           return <section className="grass-tile" key={number}></section>;
         })}

@@ -1,8 +1,8 @@
 .Pikachu {
     background-image: url("../src/assets/pika03.png");
     background-size: cover;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 
     position:absolute;
     left: 48%;
